@@ -1,0 +1,2 @@
+(this["webpackJsonppython-cheatsheet"]=this["webpackJsonppython-cheatsheet"]||[]).push([[0],{4:function(t,e,n){"use strict";n.r(e);n(0);var c=n(3),h=n.n(c),s=(n(9),n(2)),o=function(){return Object(s.jsx)("h1",{children:"ROOT"})};h.a.render(Object(s.jsx)(o,{}),document.getElementById("root"))},9:function(t,e,n){}},[[4,1,2]]]);
+//# sourceMappingURL=main.96460520.chunk.js.map
