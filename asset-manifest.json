@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/python-cheatsheet/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/python-cheatsheet/static/js/main.96460520.chunk.js",
-    "main.js.map": "/python-cheatsheet/static/js/main.96460520.chunk.js.map",
+    "main.css": "/python-cheatsheet/static/css/main.29db5076.chunk.css",
+    "main.js": "/python-cheatsheet/static/js/main.9f4e4121.chunk.js",
+    "main.js.map": "/python-cheatsheet/static/js/main.9f4e4121.chunk.js.map",
     "runtime-main.js": "/python-cheatsheet/static/js/runtime-main.af735e39.js",
     "runtime-main.js.map": "/python-cheatsheet/static/js/runtime-main.af735e39.js.map",
-    "static/js/2.73850b4c.chunk.js": "/python-cheatsheet/static/js/2.73850b4c.chunk.js",
-    "static/js/2.73850b4c.chunk.js.map": "/python-cheatsheet/static/js/2.73850b4c.chunk.js.map",
+    "static/js/2.97e1ddfb.chunk.js": "/python-cheatsheet/static/js/2.97e1ddfb.chunk.js",
+    "static/js/2.97e1ddfb.chunk.js.map": "/python-cheatsheet/static/js/2.97e1ddfb.chunk.js.map",
     "index.html": "/python-cheatsheet/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/python-cheatsheet/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.73850b4c.chunk.js.LICENSE.txt": "/python-cheatsheet/static/js/2.73850b4c.chunk.js.LICENSE.txt"
+    "static/css/main.29db5076.chunk.css.map": "/python-cheatsheet/static/css/main.29db5076.chunk.css.map",
+    "static/js/2.97e1ddfb.chunk.js.LICENSE.txt": "/python-cheatsheet/static/js/2.97e1ddfb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.af735e39.js",
-    "static/js/2.73850b4c.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.96460520.chunk.js"
+    "static/js/2.97e1ddfb.chunk.js",
+    "static/css/main.29db5076.chunk.css",
+    "static/js/main.9f4e4121.chunk.js"
   ]
 }
