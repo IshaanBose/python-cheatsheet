@@ -1,0 +1,13 @@
+$main-circle-bg: rgb(0, 0, 51);
+$body-bg: rgb(144, 238, 144);
+$horz-offset: 10em;
+$vert-offset: 1em;
+
+body
+{
+    background-color: rgb(144, 238, 144);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}

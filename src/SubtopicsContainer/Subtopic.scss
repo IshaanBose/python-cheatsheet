@@ -1,0 +1,103 @@
+$main-circle-bg: rgb(0, 0, 51);
+$body-bg: rgb(144, 238, 144);
+
+@mixin subtopic-circle($horz, $vert)
+{
+    height: 10em;
+    width: 10em;
+    background-color: $body-bg;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: $main-circle-bg;
+    transition: border-color 1s;
+    transform: translate(10em + $horz, 1em + $vert);
+
+    &:hover
+    {
+        border-color: lightblue;
+        cursor: pointer;
+    }
+}
+
+@mixin text-content($padding-top: 33%, $font-size: 2em)
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: $padding-top;
+    font-size: $font-size;
+}
+
+.sub-topics-container
+{
+    display: none;
+    transform: scale(0);
+    transition: all 1s;
+}
+.sub-topics-container-disp
+{
+    transform: scale(1);
+}
+.topic-basics
+{
+    @include subtopic-circle(0em, 6em);
+
+    .text-content
+    {
+        @include text-content;
+    }
+}
+.topic-lists
+{
+    @include subtopic-circle(17em, 8em);
+
+    .text-content
+    {
+        @include text-content;
+    }
+}
+.topic-strings
+{
+    @include subtopic-circle(0em, 0em);
+
+    .text-content
+    {
+        @include text-content;
+    }
+}
+.topic-tuples
+{
+    @include subtopic-circle(-17em, 8em);
+
+    .text-content
+    {
+        @include text-content;
+    }
+}
+.topic-classes
+{
+    @include subtopic-circle(17em, 5em);
+
+    .text-content
+    {
+        @include text-content;
+    }
+}
+.topic-functions
+{
+    @include subtopic-circle(0em, 12.5em);
+
+    .text-content
+    {
+        @include text-content(37%, 1.5em);
+    }
+}
+.topic-dictionaries
+{
+    @include subtopic-circle(-17em, 5em);
+
+    .text-content
+    {
+        @include text-content(39%, 1.25em);
+    }
+}

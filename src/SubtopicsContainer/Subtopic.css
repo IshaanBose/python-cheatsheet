@@ -1,0 +1,165 @@
+.sub-topics-container {
+  display: none;
+  transform: scale(0);
+  transition: all 1s;
+}
+
+.sub-topics-container-disp {
+  transform: scale(1);
+}
+
+.topic-basics {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(10em, 7em);
+}
+.topic-basics:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-basics .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  font-size: 2em;
+}
+
+.topic-lists {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(27em, 9em);
+}
+.topic-lists:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-lists .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  font-size: 2em;
+}
+
+.topic-strings {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(10em, 1em);
+}
+.topic-strings:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-strings .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  font-size: 2em;
+}
+
+.topic-tuples {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(-7em, 9em);
+}
+.topic-tuples:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-tuples .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  font-size: 2em;
+}
+
+.topic-classes {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(27em, 6em);
+}
+.topic-classes:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-classes .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  font-size: 2em;
+}
+
+.topic-functions {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(10em, 13.5em);
+}
+.topic-functions:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-functions .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 37%;
+  font-size: 1.5em;
+}
+
+.topic-dictionaries {
+  height: 10em;
+  width: 10em;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000033;
+  transition: border-color 1s;
+  transform: translate(-7em, 6em);
+}
+.topic-dictionaries:hover {
+  border-color: lightblue;
+  cursor: pointer;
+}
+.topic-dictionaries .text-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 39%;
+  font-size: 1.25em;
+}
+
+/*# sourceMappingURL=Subtopic.css.map */
