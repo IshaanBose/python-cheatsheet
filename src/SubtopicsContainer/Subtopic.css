@@ -1,26 +1,48 @@
+.text-content-hover-gen {
+  font-size: 2.1em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 33%;
+  transition: font-size 300ms;
+}
+
+.text-content-hover-dicts {
+  font-size: 1.35em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 39%;
+  transition: font-size 300ms;
+}
+
+.text-content-hover-funcs {
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 37%;
+  transition: font-size 300ms;
+}
+
 .sub-topics-container {
-  display: none;
-  transform: scale(0);
-  transition: all 1s;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 500ms;
 }
 
 .sub-topics-container-disp {
+  opacity: 1;
   transform: scale(1);
+  transition: all 500ms;
 }
 
 .topic-basics {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(10em, 7em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-basics:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-basics .text-content {
@@ -28,21 +50,18 @@
   font-weight: bold;
   padding-top: 33%;
   font-size: 2em;
+  transition: font-size 300ms;
 }
 
 .topic-lists {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(27em, 9em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-lists:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-lists .text-content {
@@ -50,21 +69,18 @@
   font-weight: bold;
   padding-top: 33%;
   font-size: 2em;
+  transition: font-size 300ms;
 }
 
 .topic-strings {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(10em, 1em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-strings:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-strings .text-content {
@@ -72,21 +88,18 @@
   font-weight: bold;
   padding-top: 33%;
   font-size: 2em;
+  transition: font-size 300ms;
 }
 
 .topic-tuples {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(-7em, 9em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-tuples:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-tuples .text-content {
@@ -94,21 +107,18 @@
   font-weight: bold;
   padding-top: 33%;
   font-size: 2em;
+  transition: font-size 300ms;
 }
 
 .topic-classes {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(27em, 6em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-classes:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-classes .text-content {
@@ -116,21 +126,18 @@
   font-weight: bold;
   padding-top: 33%;
   font-size: 2em;
+  transition: font-size 300ms;
 }
 
 .topic-functions {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(10em, 13.5em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-functions:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-functions .text-content {
@@ -138,21 +145,18 @@
   font-weight: bold;
   padding-top: 37%;
   font-size: 1.5em;
+  transition: font-size 300ms;
 }
 
 .topic-dictionaries {
   height: 10em;
   width: 10em;
-  background-color: lightgreen;
   border-radius: 50%;
-  border-style: solid;
   border-width: 5px;
-  border-color: #000033;
-  transition: border-color 1s;
   transform: translate(-7em, 6em);
+  background-image: linear-gradient(135deg, lightgreen, #50ff59);
 }
 .topic-dictionaries:hover {
-  border-color: lightblue;
   cursor: pointer;
 }
 .topic-dictionaries .text-content {
@@ -160,6 +164,7 @@
   font-weight: bold;
   padding-top: 39%;
   font-size: 1.25em;
+  transition: font-size 300ms;
 }
 
 /*# sourceMappingURL=Subtopic.css.map */
