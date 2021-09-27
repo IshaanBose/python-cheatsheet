@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import BasicsPage from './ContentPages/BasicsPage';
 import StringsPage from './ContentPages/StringsPage';
+import PageContentHeader from "./PageContentHeader";
 import './Page.css';
 
 const PageContainer = (props) => {
@@ -67,6 +68,7 @@ const PageContainer = (props) => {
             className={ pageInit ? "page-container" : "page-container-hide" } 
             onScroll={handleOnScroll}>
             <div className="page-content-container">
+                <PageContentHeader hidePage={ handleHidePage }>{ props.subject }</PageContentHeader>
                 { renderPage(props.subject) }
                 <a 
                     href="#top" 

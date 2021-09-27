@@ -1,12 +1,9 @@
 import React from "react";
-import PageContentHeader from "../PageContentHeader";
 import '../Page.css';
 
-const BasicsPage = (props) => {
+const BasicsPage = () => {
     return (
         <div>
-            <PageContentHeader hidePage={ props.hidePage }>Python Basics</PageContentHeader>
-            <br/>
             <div className="content-subtopic">About Python</div>
             <ul>
                 <li>Desgined by Guido van Rossum</li>

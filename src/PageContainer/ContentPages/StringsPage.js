@@ -1,10 +1,8 @@
 import React from "react";
-import PageContentHeader from "../PageContentHeader";
 
-const StringsPage = (props) => {
+const StringsPage = () => {
     return (
         <div>
-            <PageContentHeader hidePage={ props.hidePage }>Strings</PageContentHeader><br/>
             <div className="content-subtopic">Multiline Strings</div>
             Python allows us to declare multiline strings using """ or '''. Multiline strings keep line breaks as they were present while
             declaring the string.
