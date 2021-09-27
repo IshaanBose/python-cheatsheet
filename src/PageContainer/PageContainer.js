@@ -7,7 +7,6 @@ const PageContainer = (props) => {
     const [ pageInit, setPageInit ] = useState(false);
     const [ showFloatingButton, setShowFloatingButton ] = useState(false);
     const scrollRef = useRef(0);
-    let scrollVar = 0;
 
     useEffect(() => {
         const timeoutID = setTimeout(() => {
