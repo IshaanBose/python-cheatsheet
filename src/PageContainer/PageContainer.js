@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import BasicsPage from './ContentPages/BasicsPage';
 import StringsPage from './ContentPages/StringsPage';
 import ListsPage from "./ContentPages/ListsPage";
+import TuplesPage from "./ContentPages/TuplesPage";
 import PageContentHeader from "./PageContentHeader";
 import './Page.css';
 
@@ -59,6 +60,7 @@ const PageContainer = (props) => {
             case "Basics" : return <BasicsPage />;
             case "Strings" : return <StringsPage />;
             case "Lists" : return <ListsPage />;
+            case "Tuples": return <TuplesPage />;
 
             default: return "";
         }

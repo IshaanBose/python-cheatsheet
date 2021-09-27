@@ -118,6 +118,9 @@
   color: #ea00ff;
   font-style: italic;
 }
+.code-container .typecast {
+  color: #a85cff;
+}
 
 .inline-keyword {
   color: #ece800;
