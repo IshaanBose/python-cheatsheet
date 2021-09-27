@@ -7,7 +7,7 @@ const PageContentHeader = (props) => {
 
     return (
         <div>
-            <p><span className="link" onClick={ handleClick }>&lt; Go Back</span></p>
+            <p id="top"><span className="link" onClick={ handleClick }>&lt; Go Back</span></p>
             <h1 className="display-2 fw-bold text-decoration-underline">{ props.children }</h1>
         </div>
     );

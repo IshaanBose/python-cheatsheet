@@ -6,7 +6,8 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background-image: linear-gradient(180deg, lightgreen, #50ff59);
+  background-image: linear-gradient(180deg, #000033, #00001a);
+  scroll-behavior: smooth;
   overflow: auto;
   transition: opacity 500ms;
 }
@@ -19,7 +20,7 @@
   width: 100%;
   height: 100%;
   z-index: 0;
-  background-color: lightgreen;
+  background-image: linear-gradient(180deg, #000033, #00001a);
   overflow-y: auto;
   transition: opacity 500ms;
 }
@@ -47,32 +48,72 @@
   padding-top: 0.25em;
 }
 
+.floating-button-container {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.floating-button-container-hide {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.floating-button {
+  position: fixed;
+  z-index: 99999;
+  bottom: 30px;
+  right: 55px;
+  border-radius: 50%;
+  border-style: none;
+  background-image: linear-gradient(180deg, lightgreen, #50ff59);
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0 3px black;
+  color: black;
+  transition: color 100ms;
+}
+.floating-button:hover {
+  color: white;
+  transition: color 100ms;
+}
+
 .code-container {
-  background-color: white;
+  background-color: #00183d;
   padding: 0.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  color: black;
+  color: white;
   font-family: monospace;
   font-size: 0.9em;
 }
 .code-container .string {
-  color: #00c000;
+  color: lime;
 }
 .code-container .number {
-  color: #d88c00;
+  color: #ffae00;
 }
 .code-container .comment {
-  color: #6e6e6e;
+  color: #acacac;
 }
 .code-container .keyword {
-  color: #ff0062;
+  color: #ece800;
 }
 .code-container .literal {
-  color: #ac0000;
+  color: red;
 }
 .code-container .function-call {
-  color: #005fac;
+  color: #00e1ff;
+}
+.code-container .keyword-italics {
+  color: #00ffdd;
+  font-style: italic;
+}
+
+.inline-keyword {
+  color: #ece800;
+  background-color: #00183d;
+  font-size: 0.9em;
+  font-family: monospace;
 }
 
 /*# sourceMappingURL=Page.css.map */

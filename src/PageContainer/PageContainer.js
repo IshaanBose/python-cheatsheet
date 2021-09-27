@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BasicsPage from './ContentPages/BasicsPage';
 import StringsPage from './ContentPages/StringsPage';
 import './Page.css';
 
 const PageContainer = (props) => {
     const [ pageInit, setPageInit ] = useState(false);
+    const [ showFloatingButton, setShowFloatingButton ] = useState(false);
+    const scrollRef = useRef(0);
+    let scrollVar = 0;
 
     useEffect(() => {
         const timeoutID = setTimeout(() => {
@@ -33,6 +36,22 @@ const PageContainer = (props) => {
         }, 500);
     };
 
+    const handleOnScroll = ({ target }) => {
+        let b = document.body;
+        let currScroll = ((target.scrollTop || b["scrollTop"]) / ((target.scrollHeight || b["scrollHeight"]) - target.clientHeight)) * 100;
+
+        if (scrollRef.current - currScroll > 0)
+        {
+            scrollRef.current = currScroll;
+            setShowFloatingButton(true);
+        }
+        else
+        {
+            scrollRef.current = currScroll;
+            setShowFloatingButton(false);
+        }
+    };
+
     const renderPage = (page) => {
         switch (page)
         {
@@ -44,9 +63,19 @@ const PageContainer = (props) => {
     }
 
     return (
-        <div className={ pageInit ? "page-container" : "page-container-hide" }>
+        <div 
+            id="page-container" 
+            className={ pageInit ? "page-container" : "page-container-hide" } 
+            onScroll={handleOnScroll}>
             <div className="page-content-container">
                 { renderPage(props.subject) }
+                <a 
+                    href="#top" 
+                    className={showFloatingButton ? "floating-button-container" : "floating-button-container-hide" }>
+                    <button className="floating-button">
+                        <span className="material-icons">arrow_upward</span>
+                    </button>
+                </a>
             </div>
         </div>
     );
