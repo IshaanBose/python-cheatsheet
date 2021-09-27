@@ -1,7 +1,6 @@
 # Python Cheatsheet
 
-A web app containing my personal Python cheat sheet.\
-This web app was created for my MCA program at CHRIST.\
+A web app containing my personal Python cheat sheet. This web app was created for my MCA program at CHRIST.\
 To view the web app, click [here.](https://ishaanbose.github.io/python-cheatsheet/)
 
 ## Tools Used
