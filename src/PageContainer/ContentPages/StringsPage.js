@@ -106,7 +106,8 @@ const StringsPage = () => {
                 'int: 10, float: 901.921049, char: $, and string:  exit'<br/>
                 <span className="arrow">&gt;&gt;&gt; </span>
                 <span className="string">'int: &#123;a&#125;, float: &#123;b&#125;, char: &#123;c&#125;, and string: &#123;d&#125;'</span>
-                .<span className="function-call">format</span>(a=var1, c=var3, b=var2, d=var4)<br/>
+                .<span className="function-call">format</span>(<span className="arg-param">a</span>=var1, <span className="arg-param">c</span>=var3, 
+                <span className="arg-param"> b</span>=var2, <span className="arg-param">d</span>=var4)<br/>
                 'int: 10, float: 901.921049, char: $, and string:  exit'<br/>
                 <span className="arrow">&gt;&gt;&gt; </span>
                 <span className="format-keyword">f</span>

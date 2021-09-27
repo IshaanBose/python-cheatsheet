@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import BasicsPage from './ContentPages/BasicsPage';
 import StringsPage from './ContentPages/StringsPage';
+import ListsPage from "./ContentPages/ListsPage";
 import PageContentHeader from "./PageContentHeader";
 import './Page.css';
 
@@ -55,8 +56,9 @@ const PageContainer = (props) => {
     const renderPage = (page) => {
         switch (page)
         {
-            case "Basics" : return <BasicsPage hidePage={ handleHidePage } />;
-            case "Strings" : return <StringsPage hidePage={ handleHidePage } />;
+            case "Basics" : return <BasicsPage />;
+            case "Strings" : return <StringsPage />;
+            case "Lists" : return <ListsPage />;
 
             default: return "";
         }
