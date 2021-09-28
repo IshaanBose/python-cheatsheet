@@ -3,6 +3,7 @@ import BasicsPage from './ContentPages/BasicsPage';
 import StringsPage from './ContentPages/StringsPage';
 import ListsPage from "./ContentPages/ListsPage";
 import TuplesPage from "./ContentPages/TuplesPage";
+import DictionariesPage from "./ContentPages/DictionariesPage";
 import PageContentHeader from "./PageContentHeader";
 import './Page.css';
 
@@ -61,6 +62,7 @@ const PageContainer = (props) => {
             case "Strings" : return <StringsPage />;
             case "Lists" : return <ListsPage />;
             case "Tuples": return <TuplesPage />;
+            case "Dictionaries": return <DictionariesPage />;
 
             default: return "";
         }
