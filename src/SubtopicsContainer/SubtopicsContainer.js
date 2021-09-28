@@ -19,19 +19,23 @@ const SubtopicsContainer = (props) => {
     return (
         <div className={containerInit ? "sub-topics-container-disp" : "sub-topics-container"}>
             <div className="row">
-                <Subtopic type="Lists" showPage={ props.showPage } />
-                <Subtopic type="Strings" showPage={ props.showPage } />
-                <Subtopic type="Tuples" showPage={ props.showPage } />
+                <div className="d-none d-lg-flex col-lg-3 col-md-3">
+                    <button className="btn btn-primary">&lt;</button>
+                </div>
+                <div className="d-flex col-lg-6 col-md-3">
+                    <h1><span style={{ "color": "white" }}>HALSO</span></h1>
+                </div>
+                <div className="d-none d-lg-flex col-lg-3 col-md-3">
+                    <button className="btn btn-primary">&gt;</button>
+                </div>
             </div>
-            <div className="row">
-                <div className="col-lg-4"></div>
-                <Subtopic type="Basics" showPage={ props.showPage } />
-                <div className="col-lg-4"></div>
-            </div>
-            <div className="row">
-                <Subtopic type="Classes" showPage={ props.showPage } />
-                <Subtopic type="Functions" showPage={ props.showPage } />
-                <Subtopic type="Dictionaries" showPage={ props.showPage } />
+            <div className="row d-sm-flex d-lg-none">
+                <div className="col-sm-6 col-6">
+                    <button className="btn btn-primary">&lt;</button>
+                </div>
+                <div className="col-sm-6 col-6">
+                    <button className="btn btn-primary">&gt;</button>
+                </div>
             </div>
         </div>
     );
