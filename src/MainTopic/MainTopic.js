@@ -23,7 +23,7 @@ const MainTopic = (props) => {
     return (
         <div className="row" id="root-main">
             <div className="col-lg-4"></div>
-            <div id="root" className="col-lg-4">
+            <div id="root" className="col-lg-4 col-sm-12 col-md-12">
                 <div 
                     id="main-circle" 
                     className={ isClicked ? "main-circle animate-main-circle" : "main-circle main-circle-hover" }
