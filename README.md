@@ -1,7 +1,8 @@
 # Python Cheatsheet
 
-A web app containing my personal Python cheat sheet. This web app was created for my MCA program at CHRIST.\
-To view the web app, click [here.](https://ishaanbose.github.io/python-cheatsheet/)
+**NOTE: This is the original version of the web app. It is not repsonive and will not work for most screen sizes. If you wish to view it, clone this branch and do yarn start.**
+
+A web app containing my personal Python cheat sheet. This web app was created for my MCA program at CHRIST.
 
 ## Tools Used
 [node.js 14.x](https://nodejs.org/en/download/), [yarn 3.x](https://yarnpkg.com/getting-started/install#per-project-install), [sass 1.42.x](https://sass-lang.com/install), [React.js 17.x](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app), [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/#css)
