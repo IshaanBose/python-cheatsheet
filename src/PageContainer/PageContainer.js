@@ -5,6 +5,7 @@ import ListsPage from "./ContentPages/ListsPage";
 import TuplesPage from "./ContentPages/TuplesPage";
 import DictionariesPage from "./ContentPages/DictionariesPage";
 import FunctionsPage from "./ContentPages/FunctionsPage";
+import ClassesPage from "./ContentPages/ClassesPage";
 import PageContentHeader from "./PageContentHeader";
 import './Page.css';
 
@@ -65,6 +66,7 @@ const PageContainer = (props) => {
             case "Tuples": return <TuplesPage />;
             case "Dictionaries": return <DictionariesPage />;
             case "Functions": return <FunctionsPage />;
+            case "Classes": return <ClassesPage />;
 
             default: return "";
         }
