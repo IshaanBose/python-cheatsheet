@@ -71,6 +71,7 @@ const DictionariesPage = () => {
                 d = <span className="literal">None</span><br/>
                 keys = (<span className="number">1</span>, <span className="number">2</span>, <span className="number">3</span>)<br/>
                 values = (<span className="string">'a'</span>, <span className="string">'b'</span>)<br/>
+                d = <span className="typecast">dict</span>.<span className="function-call">fromkeys</span>(keys, values)<br/>
                 <span className="function-call">print</span>(d)<br/><br/>
                 <span className="function-call">print</span>(d.<span className="function-call">setdefault</span>(
                     <span className="number">1</span>, <span className="string">'a'</span>
