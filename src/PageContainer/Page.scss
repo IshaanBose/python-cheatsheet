@@ -92,6 +92,9 @@
     color: rgb(255, 255, 255);
     font-family: monospace;
     font-size: 0.9em;
+    overflow-x: auto;
+    word-wrap: normal;
+    white-space: nowrap;
 
     .string
     {

@@ -1,8 +1,20 @@
 @import '../css-vars';
 
-@mixin subtopic-circle($horz, $vert)
+.sub-topics-container
 {
-    width: 90%;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 500ms;
+}
+.sub-topics-container-disp
+{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 500ms;
+}
+.subtopic-circle
+{
+    width: 85%;
     padding-top: 30%;
     padding-bottom: 30%;
     font-weight: bold;
@@ -11,4 +23,46 @@
     text-align: center;
     border-radius: 50%;
     background-image: linear-gradient(180deg, $body-bg, $subtopic-gradient);
+    transform: scale(1);
+    transition: transform 300ms;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: transform 300ms;
+        box-shadow: 0 0 5px 5px rgb(58, 185, 64);
+    }
+}
+.nav-button
+{
+    background-color: rgba(185, 185, 185, 0);
+    color: white;
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 5%;
+
+    &:hover {
+        background-color: rgba(185, 185, 185, 0.329);
+        color:white;
+    }
+}
+.nav-button-sm
+{
+    background-color: rgba(185, 185, 185, 0.329);
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5%;
+    padding: 0.8em;
+
+    &:hover{
+        background-color: rgba(185, 185, 185, 0.329);
+        color:white;
+    }
+}
+.large
+{
+    font-size: 3em;
 }

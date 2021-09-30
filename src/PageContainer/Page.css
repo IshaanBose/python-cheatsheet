@@ -85,6 +85,9 @@
   color: white;
   font-family: monospace;
   font-size: 0.9em;
+  overflow-x: auto;
+  word-wrap: normal;
+  white-space: nowrap;
 }
 .code-container .string {
   color: lime;
