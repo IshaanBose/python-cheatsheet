@@ -1,6 +1,6 @@
 @import '../css-vars';
 
-.subtopic-circle
+@mixin subtopic-circle($horz, $vert)
 {
     width: 90%;
     padding-top: 30%;

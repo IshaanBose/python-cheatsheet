@@ -121,6 +121,13 @@
 .code-container .typecast {
   color: #a85cff;
 }
+.code-container .class-key {
+  color: #ffae00;
+  font-style: italic;
+}
+.code-container .decorators {
+  color: #ea00ff;
+}
 
 .inline-keyword {
   color: #ece800;
